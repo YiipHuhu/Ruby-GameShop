@@ -85,7 +85,7 @@ GET /games
 
 
 GET /games/:id
-localhost:3000/games/1
+#localhost:3000/games/1
 
 
 RESPOSTA:
