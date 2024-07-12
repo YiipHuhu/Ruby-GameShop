@@ -21,8 +21,8 @@ Siga os passos abaixo para configurar o projeto localmente:
 1. **Clone o repositório:**
 
     ```bash
-    git clone https://github.com/seu-usuario/nome-do-repositorio.git
-    cd nome-do-repositorio
+    git clone [https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/YiipHuhu/Ruby-GameShop.git)
+    cd Ruby-GameShop
     ```
 
 2. **Instale as dependências:**
