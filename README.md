@@ -5,6 +5,7 @@ Esta é uma API de exemplo para gerenciar uma biblioteca de jogos, construída c
 ## Tecnologias Utilizadas 💻
 
 - Ruby on Rails
+- JSONAPI
 - JSON:API Serializer
 - SQLite (para ambiente de desenvolvimento)
 
