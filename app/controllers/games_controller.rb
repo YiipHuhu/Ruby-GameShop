@@ -1,6 +1,6 @@
 class GamesController < ApplicationController
   def index
-    games = Game.all
+    games = Game.page(params[:page]).per(3)
     render json: GameSerializer.new(games).serializable_hash.to_json
   end
 
