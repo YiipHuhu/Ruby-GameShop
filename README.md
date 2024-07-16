@@ -122,16 +122,16 @@ Estrutura do Projeto 🗂️
 
 app/
 
-  ├── controllers/
-  │   └── games_controller.rb
-  ├── models/
-  │   └── game.rb
-  ├── serializers/
-  │   └── game_serializer.rb
+  ├── controllers/    
+  │   └── games_controller.rb    
+  ├── models/    
+  │   └── game.rb    
+  ├── serializers/    
+  │   └── game_serializer.rb    
 config/
 
-  ├── routes.rb
-db/
-  ├── migrate/
-  ├── schema.rb
-  └── seeds.rb
+  ├── routes.rb    
+db/    
+  ├── migrate/    
+  ├── schema.rb    
+  └── seeds.rb    
