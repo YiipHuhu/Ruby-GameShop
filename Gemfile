@@ -23,10 +23,16 @@ gem "puma", ">= 5.0"
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
 # gem "bcrypt", "~> 3.1.7"
 
+# Jsonapi-rb é uma gem que facilita a implementação de uma API JSON:API
 gem "jsonapi.rb"
 
+# Kaminari é uma gem que facilita a paginação
+gem 'kaminari'
+
+# Use JSONAPI::Serializer para enumerar os elementos JSON:API
 gem "jsonapi-serializer"
 
+# Use Ransack para pesquisar e filtrar recursos
 gem "ransack"
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -50,4 +56,3 @@ group :development do
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
 end
-
