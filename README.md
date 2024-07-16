@@ -29,6 +29,18 @@ Siga os passos abaixo para configurar o projeto localmente:
 2. **Instale as dependências:**
 
     ```bash
+    # Jsonapi-rb é uma gem que facilita a implementação de uma API JSON:API
+    gem "jsonapi.rb"
+
+    # Kaminari é uma gem que facilita a paginação
+    gem 'kaminari'
+
+    # Use JSONAPI::Serializer para enumerar os elementos JSON:API
+    gem "jsonapi-serializer"
+
+    # Use Ransack para pesquisar e filtrar recursos
+    gem "ransack"
+    
     bundle install
     ```
 
