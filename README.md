@@ -116,20 +116,6 @@ GET /games
 GET /games/:id
 #localhost:3000/games/1
 
-
-RESPOSTA:
-
-{
-  "data": {
-    "id": "1",
-    "type": "game",
-    "attributes": {
-      "title": "The Legend of Zelda: Breath of the Wild",
-      "genre": "Action-adventure",
-      "release_date": "2017-03-03"
-    }
-  }
-}
 ```
 
 Estrutura do Projeto 🗂️
